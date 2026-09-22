@@ -5,6 +5,7 @@ keys:
     - &air age1e2mdlw7g5kt2k837qgmsd7nezpa39uu9ecx5tah0jm6xd9w8753sl5f8tu
     - &vm age14txnae0cs5rchghd3nl68n6eausgnhcudztkdhhz6wfuqwz69cvqpael7s
     - &nixrdp age1qsqzwx358ww745fs5w2zr6eq54xf9kc9f2jlzzhy4nu8guylr5kskuf633
+    - &laptop age1dw544q239t55850p08h34r6jxmrnwvrxz9n4g58hhjsrz9deaf2smqvs7g
 creation_rules:
   - path_regex: secrets.yaml$
     key_groups:
@@ -13,6 +14,7 @@ creation_rules:
       - *air
       - *vm
       - *nixrdp
+      - *laptop
   - path_regex: homelab.yaml$
     key_groups:
     - age:
